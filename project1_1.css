@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: antiquewhite;
+    
+}
+
+.top{
+    width: 100vw;
+    min-height: 120px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3rem;
+    background-color: #fcdbdb;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+#navitems{
+    width: 40%;
+    display: flex;
+    justify-content:space-around;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    min-height: 30px;
+    border: solid black 0.2px;
+    background-color: #ffffff;
+    display: flex;
+    
+    
+    justify-content:end;
+    align-items: center;
+    position: relative;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    
+}
+.twobox{
+    margin: 2%;
+    width: 95vw;
+    height: 45vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    padding: 1%;
+}
+.textbox{
+    width: 65%;
+    height: 91%;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:10%;
+
+}
+.heading{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 6rem;
+}
+.aboutrecipe{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Signika', sans-serif;
+}
+.ingredients{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Signika', sans-serif;
+}
+.imgbox{ 
+    width: 21%;
+    height: 91%;
+    border-radius: 15px;
+    
+   
+}
+img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    
+}
+.reeee{
+    
+        display: flex;
+        justify-content: start;
+        
+    
+}
+.recipe{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left:6.4% ;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Signika', sans-serif;
+}
+.hh{
+    font-size: 2rem;
+}
+.footerbox{
+    width: 100vw;
+    min-height: 30px;
+    
+    background-color: #fcdbdb;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
